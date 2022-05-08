@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+<body>
+<div class="container">
+  <div class="box1">位移</div>
+  <div class="box2">旋轉</div>
+  <div class="box3">縮放</div>
+</div>
+<style>
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: #f7f0b4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  	margin-left: 250px;
+}
+.box3:hover {
+	transform: scale(1.5); 
+	
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: #D9B4F7;
+	/* font-size: x-large; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin-right: 20px; */
+	margin-left: 250px;
+	
+
+}
+.box2:hover {
+	transform: rotate(45deg)
+}
+.box1 {
+	width: 100px;
+	height: 100px;
+	background-color: #EE999A;
+	/* font-size: x-large; */
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-left: 250px;
+  }
+  .box1:hover{
+    transform: translate(120px,50%)
+  }
+</style>
+</body>
